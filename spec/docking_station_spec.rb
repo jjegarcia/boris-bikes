@@ -23,7 +23,16 @@ describe DockingStation do
   end
 
   it 'raises exception if no bikes in dock' do
-    expect { subject.bikes_unavailable}.to raise_error ('No available bikes')
+    expect { subject.bikes_unavailable }.to raise_error ('No available bikes')
+  end
+  it 'raises exception if attempted docking more bikes that capable' do
+    expect { subject.dock_over_capacity }.to raise_error('Max Capacity reached already')
+  end
+
+  it 'dock bike with limit capacity reached should raise exception' do
+    bike = subject.release_bike
+    # subject.dock_bike(bike)
+    expect (subject).to respond_to :dock_over_capacity
   end
 
 end

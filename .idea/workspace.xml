@@ -4,6 +4,7 @@
     <list default="true" id="0a26e32e-49b8-4767-a05c-fc100a7d6fce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/docking_station.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/docking_station.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/docking_station_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/docking_station_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +56,14 @@
       <option name="presentableId" value="Default" />
       <updated>1634063617994</updated>
       <workItem from="1634063619959" duration="984000" />
-      <workItem from="1634101085837" duration="7434000" />
+      <workItem from="1634101085837" duration="11938000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/boris_bikes@Unnamed.rcov" NAME="Unnamed Coverage Results" MODIFIED="1634199655968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="boris-bikes" />
   </component>
 </project>
