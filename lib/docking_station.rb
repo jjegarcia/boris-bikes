@@ -1,36 +1,19 @@
 require_relative '../lib/bike.rb'
 
 class DockingStation
-  BIKE_CAPACITY = 2
+  DOCK_CAPACITY = 20
 
   def initialize
-    @bikes_available = BIKE_CAPACITY
+    @bikes = []
   end
 
   def release_bike
-    if bikes_available > 0
-      @bikes_available -= 1
-      Bike.new
-    else
-      bikes_unavailable
-    end
-  end
-
-  def bikes_unavailable
-    raise 'No available bikes'
-  end
-
-  def bikes_available
-    @bikes_available
-  end
-
-  def dock_over_capacity
-    raise 'Max Capacity reached already'
+    fail 'No available bikes' unless @bikes.size > 0
+    @bikes.pop
   end
 
   def dock_bike(bike)
-    @bikes_available += 1
-    bike.dock
+    fail 'Max Capacity reached already' unless @bikes.size < DOCK_CAPACITY
+    @bikes << bike
   end
-
 end
