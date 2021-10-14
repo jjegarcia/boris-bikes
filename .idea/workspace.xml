@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a26e32e-49b8-4767-a05c-fc100a7d6fce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/bike.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bike.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/bike_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/bike_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/docking_station.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/docking_station.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/docking_station_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/docking_station_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/boris/bikes_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/boris/bikes_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634063617994</updated>
       <workItem from="1634063619959" duration="984000" />
-      <workItem from="1634101085837" duration="2648000" />
+      <workItem from="1634101085837" duration="5470000" />
     </task>
     <servers />
   </component>

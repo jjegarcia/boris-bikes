@@ -4,4 +4,8 @@ class DockingStation
   def release_bike
     Bike.new
   end
+
+  def bikes_unavailable
+    raise 'No available bikes'
+  end
 end 
