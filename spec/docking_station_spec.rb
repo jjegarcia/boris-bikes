@@ -1,5 +1,6 @@
 require_relative '../lib/docking_station.rb'
 DOCK_CAPACITY = 20
+subject = DockingStation.new(DOCK_CAPACITY)
 describe DockingStation do
   it 'dokingstation should release bike' do
     expect(subject).to respond_to :release_bike

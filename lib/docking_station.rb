@@ -1,10 +1,10 @@
 require_relative '../lib/bike.rb'
 
 class DockingStation
-  DOCK_CAPACITY = 20
 
-  def initialize
+  def initialize(dock_capacity)
     @bikes = []
+    @dock_capacity = dock_capacity
   end
 
   def release_bike
@@ -13,7 +13,7 @@ class DockingStation
   end
 
   def dock_bike(bike)
-    fail 'Max Capacity reached already' unless @bikes.size < DOCK_CAPACITY
+    fail 'Max Capacity reached already' unless @bikes.size < @dock_capacity
     @bikes << bike
   end
 end
