@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a26e32e-49b8-4767-a05c-fc100a7d6fce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/boris-bikes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/boris-bikes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/docking_station.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/docking_station.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/docking_station_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/docking_station_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bike.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bike.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/bike_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/bike_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,8 @@
       <updated>1634063617994</updated>
       <workItem from="1634063619959" duration="984000" />
       <workItem from="1634101085837" duration="11938000" />
-      <workItem from="1634234300034" duration="12519000" />
+      <workItem from="1634234300034" duration="14704000" />
+      <workItem from="1634295180868" duration="4180000" />
     </task>
     <servers />
   </component>
@@ -74,8 +76,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/boris_bikes@Unnamed.rcov" NAME="Unnamed Coverage Results" MODIFIED="1634199655968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="boris-bikes" />
+    <SUITE FILE_PATH="coverage/boris_bikes@Unnamed.rcov" NAME="Unnamed Coverage Results" MODIFIED="1634281432904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" MODULE_NAME="boris-bikes" />
   </component>
 </project>
